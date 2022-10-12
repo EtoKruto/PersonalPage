@@ -4,8 +4,8 @@ import {makeThisModuleAnExecutableRouteLister} from "github-pages-plugin-for-typ
 
 
 export const routeDefs = {
-	"home": defineRoute("/PersonalPage"),
-	"pageExample": defineRoute("/page-example"),
+	"home": defineRoute("/"),
+	// "pageExample": defineRoute("/page-example"),
 };
 
 makeThisModuleAnExecutableRouteLister(routeDefs);
@@ -14,4 +14,3 @@ export const {RouteProvider, routes, useRoute} = createRouter(
 	routeDefs
 );
 
-	
