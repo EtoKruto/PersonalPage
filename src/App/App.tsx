@@ -3,10 +3,10 @@ import { Header } from './Header';
 import { Footer } from './Footer';
 import { useRoute } from '../router';
 import { Home } from '../pages/Home';
-import { PageExample } from '../pages/PageExample';
+// import { PageExample } from '../pages/PageExample';
 import { FourOhFour } from '../pages/FourOFour';
 import { ThemeProvider } from '../theme';
-import { css, cx } from '@emotion/css';
+// import { css, cx } from '@emotion/css';
 
 export function App() {
   const route = useRoute();

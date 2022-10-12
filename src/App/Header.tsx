@@ -1,10 +1,10 @@
 import { memo } from 'react';
 import { GlHeader } from 'gitlanding/GlHeader';
 import { routes } from 'router';
-import { declareComponentKeys, useTranslation, useLang } from 'i18n';
-import { css, cx } from '@emotion/css';
-import { createLanguageSelect } from 'onyxia-ui/LanguageSelect';
-import type { Language } from 'i18n';
+import { declareComponentKeys, useTranslation } from 'i18n'; //useLang
+import { css } from '@emotion/css';
+// import { createLanguageSelect } from 'onyxia-ui/LanguageSelect';
+// import type { Language } from 'i18n';
 import { useIsDarkModeEnabled } from 'onyxia-ui/lib';
 import logo_black from 'assets/img/logo_black.png';
 import logo_white from 'assets/img/logo_white.png';
