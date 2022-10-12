@@ -40,7 +40,7 @@ export const Home = memo(() => {
         body={t('articleBody')}
         buttonLabel={t('articleButtonLabel')}
         buttonLink={{
-          href: 'https://example.com',
+          href: 'https://github.com/EtoKruto',
         }}
         illustration={{
           type: 'image',
