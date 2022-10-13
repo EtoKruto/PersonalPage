@@ -49,7 +49,7 @@ export const {
         heroTitle: `Hey, I'm Alex Krut`,
         heroSubtitle: 'Thanks for visiting my page',
         articleTitle: 'I think, therefore I am',
-        articleBody: `I abide by design principles and minimalist thinking. React and JavaScript are my forte. I enjoy the process of taking an idea from conception to implementation. I'm passionate about building clean, functional designs and strive to deliver meaningful applications throughout the coding journey.`,
+        articleBody: `I abide by design principles and minimalist thinking. React and JavaScript are my forte. I enjoy the process of taking an idea from conception to implementation. My passions lie within building clean, functional designs and striving to deliver meaningful applications throughout the coding journey.`,
         articleButtonLabel: 'Checkout my GitHub',
         card1Title: 'EleetCode Tracker',
         card2Title: 'Atelier',
