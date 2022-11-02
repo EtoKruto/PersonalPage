@@ -2,26 +2,20 @@ import { memo } from 'react';
 import { GlHero } from 'gitlanding/GlHero/GlHero';
 import { GlArticle } from 'gitlanding/GlArticle';
 import { GlCards } from 'gitlanding/GlCards';
-// import { GlLogoCard } from 'gitlanding/GlCards/GlLogoCard';
 import { declareComponentKeys, useTranslation } from 'i18n';
 import personal from 'assets/img/personal2.png';
 import { css } from '@emotion/css';
 
-// import articlePng from 'assets/img/home-article.png';
 import code_clip from 'assets/video/code_clip.gif';
 import atelier_clip from 'assets/video/atelier_clip.gif';
 import eleetcode_clip from 'assets/video/eleetcode_clip.gif';
 import yourpick_clip from 'assets/video/yourpick_clip.gif';
-// import balloonIcon from 'assets/icons/balloon.png';
-// import drawioIcon from 'assets/icons/drawio.png';
-// import githubIcon from 'assets/icons/github.png';
-// import plusIcon from 'assets/icons/plus.png';
-// import rocketIcon from 'assets/icons/rocket-chat.png';
-// import tchapIcon from 'assets/icons/tchap.png';
 import { GlProjectCard } from 'gitlanding/GlCards/GlProjectCard';
+
 
 export const Home = memo(() => {
   const { t } = useTranslation({ Home });
+
   return (
     <>
       <GlHero
@@ -34,7 +28,6 @@ export const Home = memo(() => {
         }}
         hasLinkToSectionBellow={true}
       />
-
       <GlArticle
         title={t('articleTitle')}
         body={t('articleBody')}

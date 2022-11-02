@@ -6,8 +6,9 @@ import { declareComponentKeys, useTranslation } from 'i18n';
 export const Footer = memo(() => {
   const { t } = useTranslation({ Footer });
   return (
+
     <GlFooter
-      bottomDivContent={t('license')}
+      // bottomDivContent={t('license')}
       email='AlexanderAKrut@gmail.com'
       // phoneNumber='719-930-7152'
       links={[
@@ -31,6 +32,6 @@ export const Footer = memo(() => {
 });
 
 export const { i18n } = declareComponentKeys<
-  'license' | 'link1label' | 'link2label'
+   'link1label' | 'link2label'
   // | "link3label"
 >()({ Footer });

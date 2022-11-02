@@ -40,13 +40,13 @@ export const {
         // link3label: 'Link 3',
       },
       Footer: {
-        license: 'License M.I.T',
+        // license: 'License M.I.T',
         link1label: 'Resume',
         link2label: 'LinkedIn',
         // link3label: 'Link 3',
       },
       Home: {
-        heroTitle: `Hey, I'm Alex Krut`,
+        heroTitle: `Hi, I'm Alex Krut`,
         heroSubtitle: 'Thanks for visiting my page',
         articleTitle: 'I think, therefore I am',
         articleBody: `I abide by design principles and minimalist thinking. React and JavaScript are my forte. I enjoy the process of taking an idea from conception to implementation. My passions lie within building clean, functional designs and striving to deliver meaningful applications throughout the coding journey.`,
@@ -111,7 +111,7 @@ export const {
         // link3label: 'Lien 3',
       },
       Footer: {
-        license: 'License M.I.T',
+        // license: 'License M.I.T',
         link1label: 'Exemple de page',
         link2label: 'Lien 2',
         // link3label: 'Lien 3',
